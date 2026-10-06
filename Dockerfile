@@ -16,8 +16,8 @@ ENV HTTPS_PORT=443
 ENV SUMA_CONFIG=/home/node/data/config/
 ENV SUMA_BACKUP=/home/node/data/backup/
 ENV SUMA_DB=/home/node/data/SUMA.db
-ENV SUMA_KEYFILE=key.pem
-ENV SUMA_CERTFILE=cert.pem
+ENV SUMA_KEYFILE=server.key
+ENV SUMA_CERTFILE=server.crt
 ENV CRON_EVAL="0 0 10,22 * * *"
 ENV CRON_BACKUP="0 0 23 * * *"
 
